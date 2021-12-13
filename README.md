@@ -1,2 +1,0 @@
-# MeridianFanancialSolutions
-Meridian Financial Solutions
