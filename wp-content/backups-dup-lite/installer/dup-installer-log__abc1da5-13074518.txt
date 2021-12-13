@@ -1,0 +1,403 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:23:28
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.26                                |8.0.9
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-12-13 07:45:18
+WP VERSION__________: 5.8.2
+DUP VERSION_________: 1.4.3
+DB__________________: 10.3.32
+DB TABLES___________: 13
+DB ROWS_____________: 18,649
+DB FILE SIZE________: 9.27MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.0.9 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9
+DOC ROOT____________: "C:/xampp/htdocs/meridianfinancialsolutions"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/meridianfinancialsolutions/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/meridianfinancialsolutions/20211012_meridianfinance_[HASH]_20211213074518_archive.zip"
+SIZE________________: 713.45MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/meridianfinancialsolutions/20211012_meridianfinance_[HASH]_20211213074518_archive.zip"
+SIZE________________: 713.45MBFile timestamp set to Current: 2021-12-13 08:23:37
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:23:37 - RUNTIME: 8.3664 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:24:01
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.20 -- Build Server: 10.3.32
+FILE SIZE:	dup-database__[HASH].sql (4.75MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/meridianfinancialsolutions/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	130
+
+wmeridancep_commentmeta: (0)
+wmeridancep_comments: (1)
+wmeridancep_duplicator_packages: (0)
+wmeridancep_links: (0)
+wmeridancep_options: (176)
+wmeridancep_postmeta: (16238)
+wmeridancep_posts: (1003)
+wmeridancep_term_relationships: (27)
+wmeridancep_term_taxonomy: (5)
+wmeridancep_termmeta: (0)
+wmeridancep_terms: (5)
+wmeridancep_usermeta: (41)
+wmeridancep_users: (1)
+Removed '37' cache/transient rows
+
+INSERT DATA RUNTIME: 1.0371 sec.
+STEP-2 COMPLETE @ 08:24:02 - RUNTIME: 1.0677 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:24:05
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "MeridianFinance"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/admin/meridianfinancialsolutions.ideatosteer.com"
+path_new______________: "C:/xampp/htdocs/meridianfinancialsolutions"
+siteurl_______________: "http://localhost/meridianfinancialsolutions"
+url_old_______________: "https://meridianfinancialsolutions.ideatosteer.com"
+url_new_______________: "http://localhost/meridianfinancialsolutions"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wmeridancep_commentmeta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wmeridancep_comments"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+
+EVALUATE TABLE: "wmeridancep_duplicator_packages"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wmeridancep_links"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wmeridancep_options"_____________________________[ROWS:   176][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+
+EVALUATE TABLE: "wmeridancep_postmeta"____________________________[ROWS: 16238][PG:   5][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+
+EVALUATE TABLE: "wmeridancep_posts"_______________________________[ROWS:  1003][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+
+EVALUATE TABLE: "wmeridancep_term_relationships"__________________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+
+EVALUATE TABLE: "wmeridancep_term_taxonomy"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+
+EVALUATE TABLE: "wmeridancep_termmeta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wmeridancep_terms"_______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+
+EVALUATE TABLE: "wmeridancep_usermeta"____________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+
+EVALUATE TABLE: "wmeridancep_users"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  2:"\/home\/admin\/meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  4:"\home\admin\meridianfinancialsolutions.ideatosteer.com" => "C:/xampp/htdocs/meridianfinancialsolutions"
+	SEARCH  5:"\\home\\admin\\meridianfinancialsolutions.ideatosteer.com" => "C:\/xampp\/htdocs\/meridianfinancialsolutions"
+	SEARCH  6:"%5Chome%5Cadmin%5Cmeridianfinancialsolutions.ideatosteer.com" => "C%3A%2Fxampp%2Fhtdocs%2Fmeridianfinancialsolutions"
+	SEARCH  7:"//meridianfinancialsolutions.ideatosteer.com" ====> "//localhost/meridianfinancialsolutions"
+	SEARCH  8:"\/\/meridianfinancialsolutions.ideatosteer.com" ==> "\/\/localhost\/meridianfinancialsolutions"
+	SEARCH  9:"%2F%2Fmeridianfinancialsolutions.ideatosteer.com" => "%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+	SEARCH 10:"https://localhost/meridianfinancialsolutions" ====> "http://localhost/meridianfinancialsolutions"
+	SEARCH 11:"https:\/\/localhost\/meridianfinancialsolutions" => "http:\/\/localhost\/meridianfinancialsolutions"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions" => "http%3A%2F%2Flocalhost%2Fmeridianfinancialsolutions"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:17497 	|	 Cells:89045 
+UPDATED:	Tables:4 	|	 Rows:1231 	|	 Cells:1296 
+ERRORS:		0 
+RUNTIME:	0.491800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:24:06 - RUNTIME: 0.5718 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================

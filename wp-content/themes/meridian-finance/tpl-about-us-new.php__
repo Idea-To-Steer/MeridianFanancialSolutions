@@ -1,0 +1,152 @@
+<?php /* Template Name: About Us New */ ?>
+<?php get_header(); ?>
+
+<!-- Inner Banner -->
+<div class="about-banner">
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-banner.jpg" alt="">
+	<div class="banner-desc">
+		<div class="container">
+			<div class="text-block">
+				<h2>About Us</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="ab-growth">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-sm-12">
+				<div class="img-block">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img.jpg" alt="">
+				</div>
+			</div>
+			<div class="col-md-7 col-sm-12">
+				<div class="text-block">
+					<h2>We are Industry Experts Committed to your Growth</h2>
+					<p>Our company name Meridian conjures <?php echo get_template_directory_uri(); ?>/assets/images of early voyagers setting off into the unknown, guided by the prime meridian.  It speaks to our internal moral compass providing a sense of direction for our business based on a desire to do good, and build mutually beneficial relationships.</p>
+					<h3>Meridian’s founding in 2006 brought together a powerful product leadership team credited with:</h3>
+					<div class="box">
+						<h4>Big Four</h4>
+					    <p>Experience dating back to the late 1980s.</p>
+					</div>
+					<div class="box">
+						<h4>Expert witness</h4>
+						<p>Status in the tax courts in cost segregation</p>
+					</div>
+					<div class="box">
+						<h4>Leadership or</h4>
+						<p>Supporting roles in several landmark court cases</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="ab-strong">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 col-sm-12">
+				<div class="text-block">
+					<h2>We’re committed to a standard set of values, strong customer relationships, and meaningful collaboration.</h2>
+					<h3>We’re committed to a standard set of values, strong customer relationships, and meaningful collaboration.</h3>
+					<p>Every tax services firm will tell you they provide quality products, timely reporting, and great communication.  At Meridian, those are just the basic elements of good business. Our focus from the day our firm launched has been on building relationships.  Client service is the motivation behind all our actions to provide nothing less than exceptional value for our clients.</p>
+					<a href="#">Get Started</a>
+				</div>
+			</div>
+			<div class="col-md-5 col-sm-12">
+				<div class="img-block">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/hqandsop.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="ab-years">
+	<div class="container">
+		<div class="in-year">
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<h2>After 15 years, we are still serving our first client.</h2>
+				</div>
+				<div class="col-md-8 col-sm-12">
+					<p>It started with single service-cost segregation. Over the years we found more great partners who share the same philosophy. By focusing exclusively on value-added tax services that complement your traditional accounting team, we expanded our offerings. We now bring together over 300 years of combined experience in real estate, construction, sustainability, engineering, and tax law.  Founded on the principle that it is best to do one thing really, well, all our experts are singularly focused. With offices across the U.S., our team of tax specialists is considered the best in their respective industries.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="ab-construction">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<div class="box">
+					<div class="icon">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/gsw-exp1.png" alt="">
+					</div>
+					<h3>How we add value</h3>
+					<p>The best kind of service makes you smarter and ultimately puts you in control by providing access to the resources you need – delivering real value, resulting in significant, substantiated quantitative and qualitative return on investment. </p>
+					<h4>In The Short Term</h4>
+					<p>We enable clients to maximize tax deductions and credits to increase cash flow to expand the business, reduce debt, pay off capital expenditures, and increase earnings.</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="box">
+					<div class="icon">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/lamb.png" alt="">
+					</div>
+					<h3>Experience the Meridian Advantage.</h3>
+					<p>Proper tax planning creates future opportunities. Reduce the tax impact of your investments today and retain more of your gains and create greater tax efficiencies in future years. Proper tax planning creates future opportunities. Reduce the tax impact of your investments today, retain more of your gains and create greater tax efficiencies in future years. Work with us and experience the Meridian advantage.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="ab-win">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-sm-12">
+				<div class="img-block">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/wus-img2.jpg" alt="">
+				</div>
+			</div>
+			<div class="col-md-7 col-sm-12">
+				<div class="text-block">
+					<h2>Our service is based on a win-win partnership with you.</h2>
+					<h3>Fees are incurred only when savings are identified.</h3>
+					<ul>
+						<li>We can scale our solutions to provide flexible support based on your needs</li>
+						<li>We’re capable of sticking to a budget for each deal – no surprises
+							<ul>
+								<li>
+									<h4>Flat fee</h4>
+									<p>based on the time to complete the project. Works best when project scope is clear.</p>
+								</li>
+								<li>
+									<h4>Fee range</h4>
+									<p>clarifies minimum and maximum fee. Ideal when the project scale is flexible based on our findings.</p>
+								</li>
+								<li>
+									<h4>Success based</h4>
+								</li>
+							</ul>
+						</li>
+						<li>We provide a flat, all-inclusive fee based on either time to conduct the project, or a percentage of benefits</li>
+					</ul>
+					<h5>Every client and situation is unique.</h5>
+					<p>We don’t always have an immediate solution, and sometimes the best course of action is to do nothing. You can count on us to make long-term recommendations appropriate for you –even if it means we lose the business.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<style>
+	.cso-construction .box p {  min-height: auto; }
+</style>
+<?php get_footer(); ?>
